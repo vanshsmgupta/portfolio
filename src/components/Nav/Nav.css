@@ -2,14 +2,14 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 1rem 1.4rem;
     z-index: 2;
     position: fixed;
-    left: 40%;
+    left: 50%;
     transformation: translateX(-50%);
     bottom: 2rem;
     display: flex;
-    gap: 0.8rem;
+    gap: 0.7rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
@@ -21,6 +21,7 @@ nav a {
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    
 }
 
 nav a:hover {
@@ -34,10 +35,9 @@ nav a.active {
 
 @media screen and (max-width: 600px) {
     nav {
-        width: 70%; /* Make the navigation bar full width */
-        left: 40%; /* Center horizontally */
-        transform: translateX(-50%); /* Center horizontally */
+        width: 80%; /* Make the navigation bar full width */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-49%); /* Center horizontally */
         bottom: 2rem;
     }
 }
-
