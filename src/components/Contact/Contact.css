@@ -69,15 +69,18 @@ input, textarea {
     }
 
     .contact__option {
-        font-size: 0.9rem; /* Reduce the font size for smaller screens */
-        white-space: normal; /* Allow text to wrap */
+        font-size: 0.9rem;
+        white-space: normal;
         overflow: visible;
-        text-overflow: clip; /* Avoid ellipsis and allow text to overflow */
-        margin-bottom: 1rem; /* Add margin between the options to prevent overlapping */
+        text-overflow: clip;
+        margin-bottom: 1rem;
+        width: 200px; /* Set a fixed width */
+        height: 150px; 
     }
+    
 
     form {
-        margin-top: 2rem; /* Add more margin to the top of the form to create more space */
+        margin-top: 1.2rem; /* Add more margin to the top of the form to create more space */
         margin-left: 3rem; /* Move the form to the left */
         margin-right: auto; 
     }
