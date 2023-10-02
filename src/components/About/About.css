@@ -42,19 +42,24 @@
 }
 
 .about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5em;
+    display: flex; /* Change from grid to flex container */
+    flex-wrap: wrap; /* Allow the cards to wrap to the next line */
+    justify-content: center; /* Center the cards horizontally */
 }
 
 .about__card {
+    flex: 0 0 calc(33.33% - 1rem); /* Adjust the width to fit 3 cards in one row */
+    max-width: calc(33.33% - 1rem); /* Set a maximum width for each card */
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     transition: var(--transition);
+    margin-right: 1rem; /* Add margin between cards */
+    margin-bottom: 1rem; /* Add margin between rows of cards */
 }
+
 
 .about__card:hover {
     background: transparent;
