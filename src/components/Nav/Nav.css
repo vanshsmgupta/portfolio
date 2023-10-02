@@ -2,10 +2,10 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 1rem 1.4rem;
+    padding: 1.1rem 1.4rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
+    left: 40%;
     transformation: translateX(-50%);
     bottom: 2rem;
     display: flex;
